@@ -44,7 +44,7 @@ jobs:
       
       - name: Modify index.html for deployment
         run: |
-          sed -i 's|<script type="module" crossorigin src="/assets/index-DieiCc7l.js"|<script type="module" crossorigin src="p5js-practice/assets/index-DieiCc7l.js|g' ./dist/index.html
+          sed -i 's|<script type="module" crossorigin src="/assets/index-DieiCc7l.js"|<script type="module" crossorigin src="p5js-practice/assets/index-DieiCc7l.js"|g' ./dist/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
